@@ -35,6 +35,14 @@ $icon-font-path: '../../bower_components/bootstrap-sass/assets/fonts/bootstrap/'
 
         #carousel-main {
             box-shadow: 1px 1px 20px #444;
+
+            .carousel-caption {
+                bottom: 100px;
+            }
+
+            .caption-bg {
+                background-color: rgba(0, 0, 0, 0.625);
+            }
         }
     }
 
@@ -50,9 +58,5 @@ $icon-font-path: '../../bower_components/bootstrap-sass/assets/fonts/bootstrap/'
         img {
             box-shadow: 1px 1px 20px #000;
         }
-    }
-
-    .caption-bg {
-        background-color: rgba(0, 0, 0, 0.5);
     }
 }

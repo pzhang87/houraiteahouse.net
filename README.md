@@ -11,7 +11,11 @@ Source code and development environment for the  HouraiTeahouse website. The Hou
 ## Build
 
 * Clone Repo
-* $ npm install
-* $ bower install
+* Install Node
+  - Windows: Download from [NodeJS Website](https://nodejs.org/en/)
+  - Ubuntu: ```sudo apt-get install nodejs```
+* Install project deps from npm: ```npm install -g bower gulp```
+* In project root: ```$ npm install```
+* In project root: ```$ bower install```
 * $ gulp
 * Load index.html from the file system in a browser of your choice.

@@ -17,5 +17,5 @@ Source code and development environment for the  HouraiTeahouse website. The Hou
 * Install project deps from npm: ```npm install -g bower gulp```
 * In project root: ```$ npm install```
 * In project root: ```$ bower install```
-* $ gulp
-* Load index.html from the file system in a browser of your choice.
+* In project root: $ ```gulp```
+* From project root: Load dist/index.html from the file system in a browser of your choice.

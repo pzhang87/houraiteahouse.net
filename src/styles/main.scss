@@ -1,0 +1,58 @@
+$icon-font-path: '../../bower_components/bootstrap-sass/assets/fonts/bootstrap/';
+@import 'bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+#hourai-teahouse {
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    background-color: $navbar-inverse-bg;
+    color: #FFF;
+
+    > header {
+        > .navbar {
+            border-bottom: none;
+            box-shadow: 1px 1px 40px #000;
+
+            .navbar-collapse {
+                text-align: center;
+
+                .navbar-nav {
+                    display: inline-block;
+                    float: none;
+                    vertical-align: top;
+                }
+            }
+
+            .navbar-header > .navbar-brand {
+                padding: 10px;
+            }
+        }
+    }
+
+    > main .hourai-carousel {
+        padding-left: 3em;
+        padding-right: 3em;
+
+        #carousel-main {
+            box-shadow: 1px 1px 20px #444;
+        }
+    }
+
+    > main hr {
+        margin: 5em 3em 3em 3em;
+        box-shadow: 3px 3px 50px #FFF;
+    }
+
+    > main .hourai-info .row {
+        font-size: 1.75rem;
+        padding: 2em;
+
+        img {
+            box-shadow: 1px 1px 20px #000;
+        }
+    }
+
+    .caption-bg {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}

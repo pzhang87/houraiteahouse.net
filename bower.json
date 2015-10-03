@@ -1,0 +1,24 @@
+{
+  "name": "hourai-teahouse",
+  "version": "0.0.0",
+  "authors": [
+    "Giuseppe Scoppino <scoppino.giuseppe@gmail.com>",
+    "James Siqi Liu <james.siqi.liu@gmail.com"
+  ],
+  "description": "Dev blog and information point for the game.",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/HouraiTeahouse/houraiteahouse.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

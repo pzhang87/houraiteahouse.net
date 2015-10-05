@@ -6,6 +6,7 @@ concat = require('gulp-concat');
 http = require('http');
 livereload = require('gulp-livereload');
 st = require('st');
+deployGitHub = require('gulp-gh-pages');
 
 var HTTP_PORT = 8080,
     LIVERELOAD_PORT = 35729;
@@ -82,3 +83,7 @@ gulp.task('serve:watch', ['serve'], function () {
 });
 
 gulp.task('default', ['build', 'serve:watch']);
+gulp.task('deploy', ['build'], function() {
+    return gulp.src('dist/**/*')
+        .pipe(deployGitHub());
+});

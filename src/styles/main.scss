@@ -39,8 +39,10 @@ $icon-font-path: '../../bower_components/bootstrap-sass/assets/fonts/bootstrap/'
         #carousel-main {
             box-shadow: 1px 1px 20px #444;
 
-            .carousel-caption {
-                bottom: 100px;
+            @media (min-width: $screen-sm-min) {
+                .carousel-caption {
+                    bottom: 100px;
+                }
             }
 
             .caption-bg {

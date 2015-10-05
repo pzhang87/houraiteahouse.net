@@ -18,4 +18,4 @@ Source code and development environment for the  HouraiTeahouse website. The Hou
 * In project root: ```$ npm install```
 * In project root: ```$ bower install```
 * In project root: $ ```gulp```
-* From project root: Load dist/index.html from the file system in a browser of your choice.
+* Navigate to ```localhost:8080``` in a web browser.
